@@ -1,0 +1,12 @@
+{
+  "name": "jscolorengine-harness",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Accuracy and speed harness for jsColorEngine. Little CMS references, comparison tools, benchmarks.",
+  "license": "MPL-2.0",
+  "scripts": {
+    "generate": "node oracle/generate.js",
+    "compare": "node lcms_compat/run.js",
+    "compare-wasm": "node oracle/compare-wasm.mjs"
+  }
+}

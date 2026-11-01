@@ -1,0 +1,836 @@
+{
+  "littleCMS": "2.20",
+  "generated": "2026-11-01T02:15:44.472Z",
+  "pins": [
+    {
+      "space": "2CLR",
+      "bpc": 1,
+      "lcms": "2.16",
+      "reason": "lcms 2.19 extended BPC black point detection to multi-channel spaces. On a duotone it gives out of range results such as RGB -407, and jsColorEngine applies no BPC to duotones. The ICC spec does not cover BPC, so this keeps the earlier behaviour as the reference."
+    }
+  ],
+  "profiles": [
+    {
+      "file": "AdobeRGB1998.icc",
+      "bytes": 560,
+      "sha256": "304f569a83c1e5eddaddac54e99ed03339333db013738bb499ab64f049887e28",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "AppleRGB.icc",
+      "bytes": 552,
+      "sha256": "94559b531a2481650e1bcfb8fbf4295e6d315f6ebf3660b9ad6ea96d3c8f8b82",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "CoatedGRACoL2006.icc",
+      "bytes": 654456,
+      "sha256": "276d6f4fe127f0dc22d6527443e93ca8aec680ca36cbfe0c6d9367b13eff1cfe",
+      "version": "2.1",
+      "class": "prtr",
+      "space": "CMYK",
+      "pcs": "Lab"
+    },
+    {
+      "file": "ColorMatchRGB.icc",
+      "bytes": 560,
+      "sha256": "11f767aef1cdebb4f60ba6432a1b6546558d6de9c51435d46c4333aacec2c4cf",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "EuroscaleCoated.icc",
+      "bytes": 557164,
+      "sha256": "00b975a74fcb50a1d80d6187d2af692e9355ac45eb8a8948c0b6e17ff8db9407",
+      "version": "2.1",
+      "class": "prtr",
+      "space": "CMYK",
+      "pcs": "Lab"
+    },
+    {
+      "file": "EuroscaleUncoated.icc",
+      "bytes": 557164,
+      "sha256": "990ff8ae33980a5d51846e17afef684946f659e2f834eb1b8eefa63ecb6ce316",
+      "version": "2.1",
+      "class": "prtr",
+      "space": "CMYK",
+      "pcs": "Lab"
+    },
+    {
+      "file": "ISOcoated_v2_bas.ICC",
+      "bytes": 1052608,
+      "sha256": "bc451e53edec49d76be437db111daf7a8ad122feb5c4b4884f2106082a6622fd",
+      "version": "2.1",
+      "class": "prtr",
+      "space": "CMYK",
+      "pcs": "Lab"
+    },
+    {
+      "file": "ISOcoated_v2_grey1c_bas.ICC",
+      "bytes": 936,
+      "sha256": "e178916f7256d890e9d4ec3f016f69fd7003c3fc980ed13325cf27e3c0524e45",
+      "version": "2.1",
+      "class": "prtr",
+      "space": "GRAY",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "ProPhoto.icm",
+      "bytes": 940,
+      "sha256": "0a8ef7d1d958d98225b3b71d93d9e8e3cecd9c302e014973d025d2a977ecf27c",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "RISO_MZ770_Black.icc",
+      "bytes": 303640,
+      "sha256": "358aa347d7af6cf6d872a4eee603fb1ac2ff93373197ac651b2e00f5dbf73d0f",
+      "version": "2.4",
+      "class": "prtr",
+      "space": "GRAY",
+      "pcs": "Lab"
+    },
+    {
+      "file": "RISO_MZ770_RedGreen.icc",
+      "bytes": 420284,
+      "sha256": "505ceec01683c167e56d33c9579850873804a39fb2f0ac3adb13f45842f40980",
+      "version": "2.4",
+      "class": "prtr",
+      "space": "2CLR",
+      "pcs": "Lab"
+    },
+    {
+      "file": "NULL.icc",
+      "bytes": 8204,
+      "sha256": "fbee016fb3561c641874172177d36931348665cf430f4c3b2f2ff8804480ff91",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "Sample_Profile.icc",
+      "bytes": 8208,
+      "sha256": "d137d371132d8039d31d2647efcd72574e9ddab59b31670dc1fa722fe5deefc7",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "USNewsprintSNAP2007.icc",
+      "bytes": 654436,
+      "sha256": "acbe6a12aa3850cbfce4afae31c70c8f2edc97000c834d60c91f96b2c502da20",
+      "version": "2.1",
+      "class": "prtr",
+      "space": "CMYK",
+      "pcs": "Lab"
+    },
+    {
+      "file": "USSheetfedCoated.icc",
+      "bytes": 557168,
+      "sha256": "85c54d80a1567ec3b0ae359607a403177753878dba5360442dabe40bb07995fe",
+      "version": "2.1",
+      "class": "prtr",
+      "space": "CMYK",
+      "pcs": "Lab"
+    },
+    {
+      "file": "USWebCoatedSWOP.icc",
+      "bytes": 557168,
+      "sha256": "35f401731df11a4eba3502af632e51d68bc394bcb7d34632a331c1ba3f4a0bf6",
+      "version": "2.1",
+      "class": "prtr",
+      "space": "CMYK",
+      "pcs": "Lab"
+    },
+    {
+      "file": "UncoatedFOGRA29.icc",
+      "bytes": 654140,
+      "sha256": "9af0eb039208b0ae700d3fccd64a657b174db5c617c09ee79ced7cfcb7d4c392",
+      "version": "2.1",
+      "class": "prtr",
+      "space": "CMYK",
+      "pcs": "Lab"
+    },
+    {
+      "file": "WebCoatedFOGRA28.icc",
+      "bytes": 654140,
+      "sha256": "817f6969bcd38a82f36dc8fe6ee797bec28bcd57c0d23c363bf56f4957cdac93",
+      "version": "2.1",
+      "class": "prtr",
+      "space": "CMYK",
+      "pcs": "Lab"
+    },
+    {
+      "file": "WebCoatedSWOP2006Grade3.icc",
+      "bytes": 654456,
+      "sha256": "917697ab06d975e8acd45778f54e203582c3f39ede4c6cf5506ca2c53ed0a63c",
+      "version": "2.1",
+      "class": "prtr",
+      "space": "CMYK",
+      "pcs": "Lab"
+    },
+    {
+      "file": "WebCoatedSWOP2006Grade5.icc",
+      "bytes": 654456,
+      "sha256": "6c2c4a22e0ed102dce8e75105dd9d7d26193f9940ca86efacc57457f31cc0071",
+      "version": "2.1",
+      "class": "prtr",
+      "space": "CMYK",
+      "pcs": "Lab"
+    },
+    {
+      "file": "WideGamutRGB.icc",
+      "bytes": 560,
+      "sha256": "a08325fc2ead7d3fa559922d0da3d3fc6d0e3ddb6c0c93826631d8bcb6fca77a",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "Display P3.icc",
+      "bytes": 536,
+      "sha256": "20789fdbea9835251a4f0796c8bf45cbd964896044886540da21ffc7457af0ab",
+      "version": "4.0",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "ISO22028-2_ROMM-RGB.icc",
+      "bytes": 864,
+      "sha256": "96b2f2987f83e2a545e607799fbfdff43ef8158fb9b215b187c574db8f145aaf",
+      "version": "4.0",
+      "class": "spac",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "PRMG_RGB-sRGB_based.icc",
+      "bytes": 59996,
+      "sha256": "c61f21df337328557ad725ba051751304fd40d369f7d32a257462bc7b83aed57",
+      "version": "4.2",
+      "class": "spac",
+      "space": "RGB",
+      "pcs": "Lab"
+    },
+    {
+      "file": "Probev1_ICCv2.icc",
+      "bytes": 146136,
+      "sha256": "19d3e3456beee7d8b7fe7ad644ad8a1a890ec710ed92d55dfcd2cb7dfcd8aa32",
+      "version": "2.0",
+      "class": "prtr",
+      "space": "CMYK",
+      "pcs": "Lab"
+    },
+    {
+      "file": "Probev1_ICCv4.icc",
+      "bytes": 146800,
+      "sha256": "47f4e71af3c03b5801f6555a57be645040c8a83011947a35bc50b599bfc8613a",
+      "version": "4.0",
+      "class": "prtr",
+      "space": "CMYK",
+      "pcs": "Lab"
+    },
+    {
+      "file": "Probev2_ICCv4.icc",
+      "bytes": 4275112,
+      "sha256": "31079bc94996c8df794387f189369934f510841303e935dad868f3d1fca93b96",
+      "version": "4.0",
+      "class": "prtr",
+      "space": "CMYK",
+      "pcs": "Lab"
+    },
+    {
+      "file": "AdobeCompat-v2.icc",
+      "bytes": 374,
+      "sha256": "60fb2adecacf82132db0b1c09b303316f3bbd9e2823e7ba096d01627d12d57c9",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "AdobeCompat-v4.icc",
+      "bytes": 480,
+      "sha256": "1e35b53d118eba6835a7bac06137ea87cd5ad6eee97b20a88b29ab6356b00e43",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "AppleCompat-v2.icc",
+      "bytes": 374,
+      "sha256": "5109111a394a7c4dd6fde725718d88af47e8d7336ff3adda67307825c561cb7b",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "AppleCompat-v4.icc",
+      "bytes": 480,
+      "sha256": "d7b8fa8fa9c1a804fdc62ff166adfa49fa714b219463f11b3486190a8ad7b137",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "CGATS001Compat-v2-micro.icc",
+      "bytes": 8464,
+      "sha256": "73e1ba37d2bad5bab2a964f40a9eed96209666efc067c3322626214bbef234a0",
+      "version": "2.1",
+      "class": "scnr",
+      "space": "CMYK",
+      "pcs": "Lab"
+    },
+    {
+      "file": "ColorMatchCompat-v2.icc",
+      "bytes": 374,
+      "sha256": "26281f1e1afca151a4fcd0731e83a9d139f8bf5ae17f5a34f0dab49daa6c8e35",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "ColorMatchCompat-v4.icc",
+      "bytes": 480,
+      "sha256": "f65c9a6e2ec5595f9961570b7f6f779e88150d3a308353fc04b2e3889a45b200",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "DCI-P3-v4.icc",
+      "bytes": 464,
+      "sha256": "58ac463ea778e9b70692971dd4ba9071363a03aba77043894162b1ad6c051da7",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "DisplayP3-v2-magic.icc",
+      "bytes": 736,
+      "sha256": "fa7905dea9d49e775f4e367966e6fc3411e843b44ea91fd7908104b7943a1446",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "DisplayP3-v2-micro.icc",
+      "bytes": 456,
+      "sha256": "cdb9ed06df5cc3be0c24f097407a490daee8ffce764fa8ff1dd66c8b5a591eb7",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "DisplayP3-v4.icc",
+      "bytes": 480,
+      "sha256": "cb51de38e482ee974c0c76b9689e16aad04bad16e226fed2f30c842d15ff3a3d",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "DisplayP3Compat-v2-magic.icc",
+      "bytes": 736,
+      "sha256": "4564e3575b10133dfe34097696ce54eb0c4bb7ad5278d999f7ef68938ba8d372",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "DisplayP3Compat-v2-micro.icc",
+      "bytes": 456,
+      "sha256": "a917f04df365b7331e614a32ea309975006e851b5a39ecb9ace8f07172e9ef6e",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "DisplayP3Compat-v4.icc",
+      "bytes": 480,
+      "sha256": "231752984cd4a5278e1b8d2390fe496767d4511fc81f54e1a5c69ae9ab4c42b5",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "ProPhoto-v2-magic.icc",
+      "bytes": 756,
+      "sha256": "59d1ef4f6b882d0d923bdaed86268f55dd30a8d102f4882aad9c2bbe9fb340c9",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "ProPhoto-v2-micro.icc",
+      "bytes": 496,
+      "sha256": "00b0ac58f99189b071bfca63b5434fd9f48ad08c92b17e6ce525e54b9d1a8319",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "ProPhoto-v4.icc",
+      "bytes": 480,
+      "sha256": "090daf740c136b4a63bf979d64f034b4a65aa5abbb04a0917729222afe2bb5c2",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "Rec2020-g24-v4.icc",
+      "bytes": 464,
+      "sha256": "b03c9218e82ab12fc4fcac7f5a0fb10ff53ebc7ad8387ae68a6d8cf5d4dfbaa3",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "Rec2020-v2-magic.icc",
+      "bytes": 790,
+      "sha256": "aefd0745fc9267d7387e6f10c6e739a354664b179194b02effc880c63f74ec8c",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "Rec2020-v2-micro.icc",
+      "bytes": 460,
+      "sha256": "5fa064e6456b9b719e445f07038442fac6e9c5153e187f36e1ba4bcf23fb975b",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "Rec2020-v4.icc",
+      "bytes": 480,
+      "sha256": "135ebd418b668c0ca56a8dea6d262c4deccae8166e0ca8264b7d7f35863ccb4b",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "Rec2020Compat-v2-magic.icc",
+      "bytes": 790,
+      "sha256": "9b4e2cbd2bcd0b55b30cf660e6ee79775f714565bf055f1545081ce17a7d592a",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "Rec2020Compat-v2-micro.icc",
+      "bytes": 460,
+      "sha256": "9e8ca28a47dc1b00d0ce54ee603fe1972bdfdf1ca10a9a3a329cd2f69de52296",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "Rec2020Compat-v4.icc",
+      "bytes": 480,
+      "sha256": "a141684281e5c90a3d49e1eb415ae105b1f68144d32828281d77bf782a625600",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "Rec601NTSC-v2-magic.icc",
+      "bytes": 738,
+      "sha256": "04a6d6e440afca339b07f3299e5bba5e287f5a50e86be8cc24913715d4482d5c",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "Rec601NTSC-v2-micro.icc",
+      "bytes": 460,
+      "sha256": "ef7effc339d96ea821281d29e384eecf712228508d14181a91aedbcb6c811d79",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "Rec601NTSC-v4.icc",
+      "bytes": 480,
+      "sha256": "b6b9331eb72e6f4e4d0409b84097ffac73956e335ac204f9431e89e7b9f5a28a",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "Rec601PAL-v2-magic.icc",
+      "bytes": 738,
+      "sha256": "7d8958f9d5c20e6638f576e5e765bc6d84e50d74e0ad9e5a7df8ccef05b481db",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "Rec601PAL-v2-micro.icc",
+      "bytes": 460,
+      "sha256": "b73d6b86c9eb2db0a7ae0c8610d2b7dedd7dea87a1ce416e31c5add1ac771aac",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "Rec601PAL-v4.icc",
+      "bytes": 480,
+      "sha256": "08b294eb3cac434e7bd2e5e36e5eca383674a29c096d0cbd85f849e127b0f2ce",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "Rec709-v2-magic.icc",
+      "bytes": 738,
+      "sha256": "e56de34050a2e31a76688a85381e834bfbdb486d2a972cbfd9eeee600f9a2e7b",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "Rec709-v2-micro.icc",
+      "bytes": 460,
+      "sha256": "c7e7388df3307495b97ba9985cd285b4c09426a0c365427176ae45e709ef49ec",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "Rec709-v4.icc",
+      "bytes": 480,
+      "sha256": "cf2a17aedc5fab20b207ee7bc42cea1d0bbf6f9f089a93973e370b2d45f7e700",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "WideGamutCompat-v2.icc",
+      "bytes": 374,
+      "sha256": "61ab00ecf840cd97125df967d598b7870d1fe47ffcd4e9b90ba0d597df091e36",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "WideGamutCompat-v4.icc",
+      "bytes": 480,
+      "sha256": "518f6ef4d919c6f812ab84738c59afa4edb3e96de7cabc40d02006fa83d33f92",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "sGrey-v2-magic.icc",
+      "bytes": 616,
+      "sha256": "4110169287e5f1b5149ca9f1da1814d32943905bba8030e849d1a3b729a19481",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "GRAY",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "sGrey-v2-micro.icc",
+      "bytes": 336,
+      "sha256": "010676406dbfc641776154fd3603adef7bace317a26027a33066891975621820",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "GRAY",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "sGrey-v2-nano.icc",
+      "bytes": 290,
+      "sha256": "ac2805b9e07b6fa3ba7406aa48e84d87041097da66220cc2a385e17bb2893cc1",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "GRAY",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "sGrey-v4.icc",
+      "bytes": 360,
+      "sha256": "00c0f94e09127520a17dc0e1d9264b5702081d96dbdb1549ee88e3631ce42a9d",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "GRAY",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "sRGB-v2-magic.icc",
+      "bytes": 736,
+      "sha256": "af4efe28f6d311799865f325ba39184a2e978b113ca74124d60af7de22b105f4",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "sRGB-v2-micro.icc",
+      "bytes": 456,
+      "sha256": "0a8a33aea66a6f154a5642ebe168ef287e73265d9f7b51c42a45e6eedbacda7a",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "sRGB-v2-nano.icc",
+      "bytes": 410,
+      "sha256": "72c1355ac9fa7c7e626e1faa30bd4ef89e57a3d039df249f9ca3f0aed98b3c58",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "sRGB-v4.icc",
+      "bytes": 480,
+      "sha256": "c56e1685d888f5edb92fe07f2750f387f8fe8e91b32ff8fb0b56bfbbb9458353",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "scRGB-v2.icc",
+      "bytes": 372,
+      "sha256": "8ae25bd986ea0dc396540762a6aa8c7fbeab7ac777cfdf242fa7c35874f4b383",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "gs_default_cmyk.icc",
+      "bytes": 187484,
+      "sha256": "8472fa1493a024b800b67dee9424835ec0c41ab79490200ae8ec4a689fd1b9a9",
+      "version": "2.1",
+      "class": "prtr",
+      "space": "CMYK",
+      "pcs": "Lab"
+    },
+    {
+      "file": "gs_default_gray.icc",
+      "bytes": 2460,
+      "sha256": "d3aaaa8ad45ec8a0108fd393a07488073ee24561fd5ed2d1f88c59771278cabd",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "GRAY",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "gs_default_rgb.icc",
+      "bytes": 2576,
+      "sha256": "eddaf344b5edea13269e0d20055f335610e5e0b6e33e6e536f2701bc18c5f7d5",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "gs_gray_to_k.icc",
+      "bytes": 5340,
+      "sha256": "8f122dead5f0b823d92575ef131e706f20df34f2b4fe13547c77acdd9d334252",
+      "version": "4.2",
+      "class": "prtr",
+      "space": "CMYK",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "gs_ps_cmyk.icc",
+      "bytes": 5340,
+      "sha256": "020236a6458406743848a12c6be280e54bcd0fd8e2d4bea9c4899410cef98cb2",
+      "version": "4.2",
+      "class": "prtr",
+      "space": "CMYK",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "gs_ps_gray.icc",
+      "bytes": 416,
+      "sha256": "184719ed5960bc9350022c724e3c35be20569fc3b15be3e41cd42d219d4672a2",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "GRAY",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "gs_ps_rgb.icc",
+      "bytes": 564,
+      "sha256": "2f83ca112acedf317291315a14e856556e7e36594c601c639a6cae751d491d5f",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "gs_sgray.icc",
+      "bytes": 416,
+      "sha256": "0976fe7bc0f118a47c89747cb707c6f76044b48baf670dad811d0514bc2c4214",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "GRAY",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "gs_srgb.icc",
+      "bytes": 2576,
+      "sha256": "eddaf344b5edea13269e0d20055f335610e5e0b6e33e6e536f2701bc18c5f7d5",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "sRGB_v4_ICC_preference_displayclass.icc",
+      "bytes": 60988,
+      "sha256": "f54b145a18e4b12112750e672f1c79cac9347dc8403da3955e7f74a352816a21",
+      "version": "4.2",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "Lab"
+    },
+    {
+      "file": "sRGB Color Space Profile.icm",
+      "bytes": 3144,
+      "sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "version": "2.1",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "sRGB2014.icc",
+      "bytes": 3024,
+      "sha256": "384b832de3412066743b52a75ee906b6fb9fb8d9e09e936fc2c43223815c6e0a",
+      "version": "2.0",
+      "class": "mntr",
+      "space": "RGB",
+      "pcs": "XYZ"
+    },
+    {
+      "file": "sRGB_v4_ICC_preference.icc",
+      "bytes": 60960,
+      "sha256": "83174717332326ddc198d9df188a4daec27b8979ba152cebbfc470c793d0bb11",
+      "version": "4.2",
+      "class": "spac",
+      "space": "RGB",
+      "pcs": "Lab"
+    }
+  ],
+  "skipped": [
+    {
+      "file": "D50_XYZ.icc",
+      "reason": "class abst has no device side to test"
+    },
+    {
+      "file": "D65_XYZ.icc",
+      "reason": "class abst has no device side to test"
+    },
+    {
+      "file": "NamedColor.icc",
+      "reason": "class nmcl has no device side to test"
+    },
+    {
+      "file": "RISO_MZ770_RedYellowBlue.icc",
+      "reason": "no stimuli for colour space 3CLR"
+    },
+    {
+      "file": "RISO_MZ770_YellowBlueTeal.icc",
+      "reason": "no stimuli for colour space 3CLR"
+    },
+    {
+      "conversion": "lab to CGATS001Compat-v2-micro.icc Absolute",
+      "reason": "no transform"
+    },
+    {
+      "conversion": "lab to CGATS001Compat-v2-micro.icc Perceptual",
+      "reason": "no transform"
+    },
+    {
+      "conversion": "lab to CGATS001Compat-v2-micro.icc Perceptual_BPC",
+      "reason": "no transform"
+    },
+    {
+      "conversion": "lab to CGATS001Compat-v2-micro.icc Relative",
+      "reason": "no transform"
+    },
+    {
+      "conversion": "lab to CGATS001Compat-v2-micro.icc Relative_BPC",
+      "reason": "no transform"
+    },
+    {
+      "conversion": "srgb to CGATS001Compat-v2-micro.icc Absolute",
+      "reason": "no transform"
+    },
+    {
+      "conversion": "srgb to CGATS001Compat-v2-micro.icc Perceptual",
+      "reason": "no transform"
+    },
+    {
+      "conversion": "srgb to CGATS001Compat-v2-micro.icc Perceptual_BPC",
+      "reason": "no transform"
+    },
+    {
+      "conversion": "srgb to CGATS001Compat-v2-micro.icc Relative",
+      "reason": "no transform"
+    },
+    {
+      "conversion": "srgb to CGATS001Compat-v2-micro.icc Relative_BPC",
+      "reason": "no transform"
+    },
+    {
+      "file": "gs_lab.icc",
+      "reason": "no stimuli for colour space Lab"
+    }
+  ]
+}

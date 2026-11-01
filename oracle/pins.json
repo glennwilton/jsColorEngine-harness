@@ -1,0 +1,10 @@
+{
+  "pins": [
+    {
+      "space": "2CLR",
+      "bpc": 1,
+      "lcms": "2.16",
+      "reason": "lcms 2.19 extended BPC black point detection to multi-channel spaces. On a duotone it gives out of range results such as RGB -407, and jsColorEngine applies no BPC to duotones. The ICC spec does not cover BPC, so this keeps the earlier behaviour as the reference."
+    }
+  ]
+}

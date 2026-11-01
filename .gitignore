@@ -1,0 +1,35 @@
+# Nothing licensed, and nothing derived from licensed files, goes in this repo.
+# profiles/ holds ICC profiles under their makers' terms. reference/ is measured
+# from them. oracle/generate.js rebuilds it from any folder of profiles, and
+# lcms_compat/manifest.json records hashes so runs can be compared.
+/lcms_compat/profiles/*
+!/lcms_compat/profiles/README.md
+/lcms_compat/reference/*
+/lcms_compat/reference_*/
+
+# Upstream Little CMS source, fetched by lcms_c/fetch-lcms2.sh.
+/lcms_c/lcms2-*/
+/lcms_exposed/
+
+# Built binaries.
+/oracle/it8gen
+/oracle/it8gen-*
+/lcms_c/*.o
+/lcms_c/bench_lcms
+/lcms_c/bench_lcms.exe
+/lcms_c/bench_content_matrix
+/lcms_c/bench_content_matrix.exe
+
+# Local archives of superseded benches and bundles.
+/archive/
+/_archive/
+
+# Machine-local output.
+/results/
+/release_matrix/corpus/
+/jit_asm_dump.txt
+/jit_asm_core_dump.txt
+/turbo-*.json
+
+node_modules/
+*.log
